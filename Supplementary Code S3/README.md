@@ -113,8 +113,6 @@ p_CF = d %>% gather("support_type", "support_value", bootstrap, gCF, sCF) %>%
 p_CF
 ```
 
-![](concordance_factors_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
-
 Save:
 
 ``` r
@@ -205,8 +203,6 @@ pcs_p = ggplot(pcs) +
         panel.grid.major.x = element_line(size=.3, color="#EBEBEB"))
 pcs_p
 ```
-
-![](concordance_factors_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
 
 Save:
 
